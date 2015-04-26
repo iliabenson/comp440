@@ -1,0 +1,18 @@
+USE [s15guest29]
+GO
+
+DROP TABLE Raffle
+DROP TABLE Vendor
+DROP TABLE Class
+DROP TABLE Rooms
+DROP TABLE Venue
+DROP TABLE Person
+DROP TABLE Addresses
+DROP TABLE City
+DROP TABLE Zip
+DROP TABLE Street
+DROP TABLE Providence
+DROP TABLE Difficulty
+DROP TABLE Roles
+DROP TABLE Track
+GO

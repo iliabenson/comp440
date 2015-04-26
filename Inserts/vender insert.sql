@@ -1,0 +1,6 @@
+INSERT INTO Vendor (CompanyName, TableNum, fk_PersonID, fk_RoomID) VALUES ('Benson Co','1', (SELECT PersonID FROM Person WHERE Fname='Ilia' AND Lname='Benson'), (SELECT RoomID FROM Rooms WHERE Capacity='98'))
+INSERT INTO Vendor (CompanyName, TableNum, fk_PersonID, fk_RoomID) VALUES ('Alonso Co','2', (SELECT PersonID FROM Person WHERE Fname='Natalia' AND Lname='Alonso'), (SELECT RoomID FROM Rooms WHERE Capacity='98'))
+INSERT INTO Vendor (CompanyName, TableNum, fk_PersonID, fk_RoomID) VALUES ('Fowler Co','3', (SELECT PersonID FROM Person WHERE Fname='Jared' AND Lname='Fowler'), (SELECT RoomID FROM Rooms WHERE Capacity='98'))
+INSERT INTO Vendor (CompanyName, TableNum, fk_PersonID, fk_RoomID) VALUES ('Eckels Co','4', (SELECT PersonID FROM Person WHERE Fname='Donald' AND Lname='Eckels'), (SELECT RoomID FROM Rooms WHERE Capacity='98'))
+INSERT INTO Vendor (CompanyName, TableNum, fk_PersonID, fk_RoomID) VALUES ('Castello Co','5', (SELECT PersonID FROM Person WHERE Fname='Jonathan' AND Lname='Castello'), (SELECT RoomID FROM Rooms WHERE Capacity='98'))
+INSERT INTO Vendor (CompanyName, TableNum, fk_PersonID, fk_RoomID) VALUES ('Plotkin Co','6', (SELECT PersonID FROM Person WHERE Fname='Benjamin' AND Lname='Plotkin'), (SELECT RoomID FROM Rooms WHERE Capacity='98'))

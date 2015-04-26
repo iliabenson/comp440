@@ -1,0 +1,5 @@
+INSERT INTO Track (Topic) VALUES ('DBA')
+INSERT INTO Track (Topic) VALUES ('Development')
+INSERT INTO Track (Topic) VALUES ('BI')
+INSERT INTO Track (Topic) VALUES ('Performance Optimization')
+INSERT INTO Track (Topic) VALUES ('Other')
